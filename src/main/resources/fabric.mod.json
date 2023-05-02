@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "zoomify",
+  "version": "${version}",
+  "name": "Zoomify",
+  "description": "A zoom mod with infinite customizability.",
+  "authors": [
+    "isXander"
+  ],
+  "contact": {
+    "homepage": "https://isxander.dev",
+    "issues": "https://github.com/isXander/Zoomify/issues",
+    "sources": "https://github.com/isXander/Zoomify"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/coffee/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "coffee.client.CoffeeMain"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "coffee.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "minecraft": ">=1.19.3"
+  }
+}
